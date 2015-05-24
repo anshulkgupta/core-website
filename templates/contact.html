@@ -11,20 +11,21 @@
   </div>
   <div class="row mt">  
     <div class="col-lg-8 col-lg-offset-2">
-      <form role="form">
+      <form action="/" role="form" method="post">
+        {{ form.csrf_token }}
         <div class="form-group">
-          <input type="name" class="form-control" id="NameInputEmail1" placeholder="Name">
+          {{ form.name(placeholder="Name", size=40) }}
           <br>
         </div>
         <div class="form-group">
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          {{ form.email(placeholder="Email", size=40) }}
           <br>
         </div>
         <div class="form-group">
-          <input type="email" class="form-control" id="subjectEmail1" placeholder="Subject">
+          {{ form.subject(placeholder="Subject", size=40) }}
           <br>
         </div>
-        <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+        {{ form.message(placeholder="Message", size=40) }}
           <br>
         <button type="submit" class="btn btn-success">SUBMIT</button>
       </form>         
