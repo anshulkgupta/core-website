@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container pt">
+  <div class="row mt">
+    <div class="col-lg-6 col-lg-offset-3 centered">
+      <h3>CONTACT US</h3>
+      <hr>
+      <p>Send us an email, and we'll be in touch as soon as we can!</p>
+    </div>
+  </div>
+  <div class="row mt">  
+    <div class="col-lg-8 col-lg-offset-2">
+      <form role="form">
+        <div class="form-group">
+          <input type="name" class="form-control" id="NameInputEmail1" placeholder="Name">
+          <br>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          <br>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="subjectEmail1" placeholder="Subject">
+          <br>
+        </div>
+        <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+          <br>
+        <button type="submit" class="btn btn-success">SUBMIT</button>
+      </form>         
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+*.sqlite
+.DS_Store
+.coverage
+config.py
+.vagrant/
