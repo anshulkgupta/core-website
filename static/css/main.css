@@ -86,7 +86,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	line-height: 100px;
+	line-height: 80px;
 	color: #54A1FF;
 }
 
@@ -168,7 +168,6 @@ a:after {
 	padding-bottom: 60px;
 	background-color: #ffffff;
 }
-
 
 
 /* Blog Date*/
