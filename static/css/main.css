@@ -60,6 +60,14 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+textarea {
+    resize: none;
+    width: 332px;
+    height: 75px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
  hr {
     display: block;
     height: 1px;
