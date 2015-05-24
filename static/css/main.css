@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:300italic,400,700);
 
 body {
   	background-color: #ffffff;
@@ -24,8 +24,6 @@ h1 {
 	margin-bottom: 30px;
 }
 
-
-
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
@@ -39,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #54A1FF;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -73,7 +71,6 @@ a:after {
     margin: 1em 0;
     padding: 0;
 }
-
 
 .navbar {
 	text-transform: uppercase;
@@ -109,9 +106,20 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #1abc9c;
+    background-color: #1abc9c;
 }
 
+.people {
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 /* Helpers */
 
@@ -121,7 +129,7 @@ a:after {
 }
 
 .pt {
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 50px;
 }
 
@@ -135,6 +143,7 @@ a:after {
 #hero img {
 	width: 100%;
 	overflow: hidden;
+	padding-top: 100px;
 }
 
 #footer {
@@ -154,9 +163,6 @@ a:after {
 	padding-bottom: 20px;
 }
 
-
-/* +++++ Color Wraps / Blog Page +++++ */
-
 #grey {
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -169,32 +175,6 @@ a:after {
 	background-color: #ffffff;
 }
 
-
-/* Blog Date*/
-bd {
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #d2d2d2;
-	font-weight: 700;
-}
-
-/* Blog Author*/
-ba {
-	font-size: 12px;
-	text-transform: uppercase;
-}
-
-/* Blog Quote */
-.bq {
-	font-size: 22px;
-	padding-top: 30px;
-}
-
-/* Blog Tags */
-bt {
-	font-size: 12px;
-}
-
 /* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
 /* Effects also are controled by hover.zoom.js */
 .zoom { 
@@ -203,7 +183,6 @@ bt {
     overflow:hidden; 
     background:transparent url(../img/loader.gif) no-repeat center;
 }
-
 
     .zoomOverlay {
         position:absolute;
