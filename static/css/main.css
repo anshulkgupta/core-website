@@ -202,6 +202,15 @@ h4.names:hover span{
 	padding-top: 100px;
 }
 
+#hero #text {
+    position: absolute;
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    left:300px;
+    bottom:50px;
+}
+
 #footer {
 	text-align: center;
 	background-color: #2f2f2f;
