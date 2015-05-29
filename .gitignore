@@ -5,3 +5,10 @@
 .coverage
 .vagrant/
 config.py
+
+#virtualenv stuff
+.Python
+bin/
+include/
+lib/
+pip-selfcheck.json
