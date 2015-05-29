@@ -146,10 +146,9 @@ textarea {
 }
 
 span.bios{
-    background: #F8F8F8;
+    background: #f2f2f2;
     color: #717171;
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 12px;
     line-height: 20px;
     position: relative;
     text-align: center;
@@ -204,11 +203,11 @@ h4.names:hover span{
 
 #hero #text {
     position: absolute;
-    color:white;
-    font-size:50px;
-    font-weight:bold;
-    left:300px;
-    bottom:50px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    left: 300px;
+    bottom: 50px;
 }
 
 #footer {
