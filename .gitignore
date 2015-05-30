@@ -6,7 +6,7 @@
 .vagrant/
 config.py
 
-#virtualenv stuff
+#virtualenv
 .Python
 bin/
 include/
