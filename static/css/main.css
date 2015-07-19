@@ -201,18 +201,18 @@ h4.names:hover span{
 	padding-top: 100px;
 }
 
-#hero #text {
+#hero #title {
     position: absolute;
     color: white;
     font-size: 50px;
     font-weight: bold;
-    left: 300px;
-    bottom: 50px;
+    left: 15%;
+    bottom: 10%;
 }
 
 #footer {
 	text-align: center;
-	background-color: #2f2f2f;
+	background-color: #ffffff;
 	padding-top: 20px;
 	padding-bottom: 20px; 
 }
@@ -251,15 +251,15 @@ h4.names:hover span{
     background:transparent url(../img/loader.gif) no-repeat center;
 }
 
-    .zoomOverlay {
-        position:absolute;
-        top:0; left:0;
-        bottom:0; right:0;
-        display:none;
-        background-image:url(../img/zoom.png);
-        background-repeat:no-repeat;
-        background-position:center;
-    }
+.zoomOverlay {
+    position:absolute;
+    top:0; left:0;
+    bottom:0; right:0;
+    display:none;
+    background-image:url(../img/zoom.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
 
 .zoom2 {
 	opacity: 1;
@@ -270,5 +270,33 @@ h4.names:hover span{
 }
 
 .fa {
-	color: #54A1FF;
+	color: #ffffff;
+    padding: 0px 5px 0px 5px;
+}
+.fa:hover {
+    color: #54A1FF;
+}
+
+#index-footer {
+    position: absolute;
+    text-align: right;
+    bottom: 0px;
+}
+
+#sidebar {
+    position: fixed;
+}
+
+/* Support for smaller screens */
+@media (max-width: 1000px) {
+    #hero img {
+        padding-top: 50%;
+    }
+
+    #hero #title {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+    } 
 }

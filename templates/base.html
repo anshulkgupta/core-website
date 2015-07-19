@@ -38,12 +38,11 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://errantlacunae.wufoo.com/forms/core-newsletter-signup/">Newsletter</a></li>
-            <li><a href="http://impulse.coreatcu.com/">Impulse</a></li>
-            <li><a href="{{ url_for('calendar') }}">Calendar</a></li>
             <li><a href="{{ url_for('initiatives') }}">Initiatives</a></li>
-            <li><a href="http://jobs.coreatcu.com">Jobs</a></li>
             <li><a href="{{ url_for('team') }}">Team</a></li>
+            <li><a href="{{ url_for('events') }}">Events</a></li>
+            <li><a href="http://jobs.coreatcu.com" target="_blank">Jobs</a></li>
+            <li><a href="http://impulse.coreatcu.com/" target="_blank">Impulse</a></li>
             <li><a href="{{ url_for('contact') }}">Contact</a></li>
           </ul>
         </div>
@@ -52,7 +51,7 @@
 
     {% block content %}{% endblock %}
 
-    <div id="footer">
+<!--     <div id="footer">
       <div class="container">
         <div class="row">
           <p>
@@ -63,7 +62,7 @@
         </div>
       </div>
     </div>
-    
+ -->
     <script src="static/js/bootstrap.min.js"></script>
     {% block js %}{% endblock %}
   </body>

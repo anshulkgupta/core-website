@@ -1,0 +1,194 @@
+{
+  "team": [ 
+	 {
+		"type": "Executive Board",
+		"names": [
+			{
+				"name": "Anshul Gupta",
+				"pic": "static/img/people/anshul.jpg",
+				"bio": "SEAS '17, Computer Science.",
+				"twitter": "http://twitter.com/anshulkgupta"
+			},
+			{
+				"name": "George Liu",
+				"pic": "static/img/people/george.jpg",
+				"bio": "CC '17, Economics.",
+				"twitter": "http://twitter.com/gxzliu"
+			},
+			{
+				"name": "Jackie Luo",
+				"pic": "static/img/people/jackie.jpg",
+				"bio": "CC '17, Computer Science and Philosophy.",
+				"twitter": "http://twitter.com/jackiehluo"
+			},
+			{
+				"name": "James Xue",
+				"pic": "static/img/people/james.jpg",
+				"bio": "Editor-in-Chief of Impulse<br>SEAS '17, Computer Science.<br><br>James started with CORE Impulse since it was just \"the blog\" back in 2013, helping to  grow a talented team, a large audience, and a site with some awesome content. He's worked at a tech startup in Hong Kong, a research lab in Tokyo, startups in NYC, and an IT consultancy in London. He also likes Game of Thrones!",
+				"twitter": "http://twitter.com/therealjamesxue"
+			},
+			{
+				"name": "Jamie Song",
+				"pic": "static/img/people/jamie.jpg",
+				"bio": "Secretary<br>SEAS '17, Computer Science.",
+				"twitter": "http://twitter.com/jamiejysong"
+			},
+			{
+				"name": "Josh Zweig",
+				"pic": "static/img/people/josh.jpg",
+				"bio": " SEAS '18, Computer Science.<br><br>Josh has worked on the global tech treks and the Startup Internship Program. He's excited to help design the world of the Internet of Things, and he's also interested in hard problems, adventure, and juggling.",
+				"twitter": "http://twitter.com/original_jz",
+				"linkedin": "https://www.linkedin.com/pub/joshua-zweig/77/737/483"
+			},
+			{
+				"name": "Kat Moon",
+				"pic": "static/img/people/kat.jpg",
+				"bio": "CC '17, Creative Writing.",
+				"twitter": "http://twitter.com/katxmoon"
+			},
+			{
+				"name": "Kimberly Hou",
+				"pic": "static/img/people/kimberly.jpg",
+				"bio": "Vice President<br>CC '16, Neuroscience.",
+				"twitter": "http://twitter.com/kimberlyjhou"
+			},
+			{
+				"name": "Max Rosenberg",
+				"pic": "static/img/people/max.jpg",
+				"bio": "Treasurer<br>CC '18, Economics."
+			},
+			{
+				"name": "Meric Atesalp",
+				"pic": "static/img/people/meric.jpg",
+				"bio": "CC '16, Neuroscience.",
+				"twitter": "http://twitter.com/mericatesalp"
+			},
+			{
+				"name": "Michelle Tan",
+				"pic": "static/img/people/michelle-t.jpg",
+				"bio": "CC '16, Economics and History.",
+				"twitter": "http://twitter.com/qiuyuntan"
+			},
+			{
+				"name": "Miranda Li",
+				"pic": "static/img/people/miranda.jpg",
+				"bio": "CC '17, Computer Science and Economics-Philosophy.",
+				"twitter": "http://twitter.com/mirandajli"
+			},
+			{
+				"name": "Sara Sakowitz",
+				"pic": "static/img/people/sara.jpg",
+				"bio": "CC '18, Biochemistry.",
+				"twitter": "http://twitter.com/sarasakowitz"
+			},
+			{
+				"name": "Simon Schwartz",
+				"pic": "static/img/people/simon.jpg",
+				"bio": "President<br>CC '17, Archaeology and Economics-Political Science.",
+				"twitter": "http://twitter.com/simonamschwartz"
+			}
+		]
+	},
+	{
+		"type": "Senior Advisors",
+		"names": [
+			{
+				"name": "Connie Long",
+				"pic": "static/img/people/connie.jpg",
+				"bio": "CC '16, Art History and Economics."
+			},
+			{
+				"name": "Jiaying Lim",
+				"pic": "static/img/people/jiaying.jpg",
+				"bio": "CC '17, Economics-Political Science."
+			},
+			{
+				"name": "Nik Nayar",
+				"pic": "static/img/people/nik.jpg",
+				"bio": "CC '16, Computer Science and Economics.",
+				"twitter": "http://twitter.com/nayaronfire"
+			}
+		]
+	},
+	{
+		"type": "Operating Partners",
+		"names": [
+			{
+				"name": "Amal Abid",
+				"pic": "static/img/people/amal.jpg",
+				"bio": "CC '17, Computer Science.",
+				"twitter": "http://twitter.com/amalabid"
+			},
+			{
+				"name": "Christy Chung",
+				"pic": "static/img/people/christy.jpg",
+				"bio": "CC '17, Economics."
+			},
+			{
+				"name": "Erica Chan",
+				"pic": "static/img/people/erica.jpg",
+				"bio": "CC '17, Computer Science."
+			},
+			{
+				"name": "Gary Lin",
+				"pic": "static/img/people/gary.jpg",
+				"bio": "SEAS '17, Computer Science."
+			},
+			{
+				"name": "Karen Yuan",
+				"pic": "static/img/people/karen.jpg",
+				"bio": "CC '16, Creative Writing.",
+				"twitter": "http://twitter.com/karenyuan_"
+			},
+			{
+				"name": "Kritina Wald",
+				"pic": "static/img/people/kristina.jpg",
+				"bio": "CC '16, Economics and Psychology.<br><br>Kristina joined CORE at the beginning of her sophomore year of college and has been involved with different initiatives including organizing dinners with entrepreneurs and building community among CORE's members. She first fell in love with startups after interning at a wedding startup in Chicago. Hobbies include sleeping, taking walks, playing piano, reading, and memorizing poetry.",
+				"website": "http://kwald345.wix.com/kristina-with-a-k"
+			},
+			{
+				"name": "Mayank Mahajan",
+				"pic": "static/img/people/mayank.jpg",
+				"bio": "SEAS '17, Computer Science.",
+				"twitter": "http://twitter.com/mayanktho"
+			},
+			{
+				"name": "Sahir Jaggi",
+				"pic": "static/img/people/sahir.jpg",
+				"bio": "SEAS '17, Mechanical Engineering.",
+				"twitter": "http://twitter.com/sahirjaggi"
+			},
+			{
+				"name": "Tony Li",
+				"pic": "static/img/people/tony.jpg",
+				"bio": "CC '18, Computer Science."
+			},
+			{
+				"name": "Victoria Lee",
+				"pic": "static/img/people/victoria.jpg",
+				"bio": "SEAS '17, Computer Science."
+			},
+			{
+				"name": "Zach Gleicher",
+				"pic": "static/img/people/zach.jpg",
+				"bio": "CC '16, Computer Science."
+			}
+		]
+	},
+	{
+		"type": "Operating Committee",
+		"names" : [
+			{
+				"name": "Abigail Kim",
+				"pic": "static/img/people/abigail.jpg",
+				"bio": "BC '16, Art History."
+			},
+			{
+				"name": "Michelle Zheng",
+				"pic": "static/img/people/michelle-z.jpg",
+				"bio": "CC '16, Computer Science and Economics."
+			}
+		]
+	}
+  ]
+}

@@ -1,24 +1,31 @@
 from flask import Flask, redirect, render_template, request, url_for
 from flask_mail import Mail
 from flask.ext.mail import Message
-
+import config
+import json
 
 app = Flask(__name__)
 app.config.from_object('config')
 mail = Mail(app)
+data = {}
 
-
-from config import SECRET_KEY
+# from config import SECRET_KEY
 from forms import ContactForm
 
+# import data from relevant JSON
+def load_data():
+    global data
+    for name, path in app.config['DATA_FILENAMES'].iteritems():
+        with open(path, 'r') as data_file:
+            data[name] = json.loads(data_file.read())
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', **data)
 
-@app.route('/calendar')
-def calendar():
-    return render_template('calendar.html')
+@app.route('/events')
+def events():
+    return render_template('events.html')
 
 @app.route('/initiatives')
 def initiatives():
@@ -26,10 +33,13 @@ def initiatives():
 
 @app.route('/team')
 def team():
-    return render_template('team.html')
+    return render_template('team.html', **data)
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
+    # Bypassing form for now
+    return render_template('contact.html')
+
     form = ContactForm()
     if form.validate_on_submit():
         msg = Message(form.subject.data,
@@ -42,6 +52,7 @@ def contact():
         return redirect(url_for('index'))
     return render_template('contact.html', form=form)
 
+load_data()
 
 if __name__ == '__main__':
-    app.run(debug = True, host='0.0.0.0')
+    app.run(debug = config.DEBUG, host=config.HOST, port=config.PORT)
