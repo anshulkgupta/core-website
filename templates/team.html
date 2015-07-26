@@ -1,48 +1,48 @@
 {% extends "base.html" %}
 {% block content %}
 
-  
+  <div class="mdl-grid">
 
-    <!-- Previous Content -->
-
-<div class="container pt"> 
-  <div class="row mt">
-    <div class="col-md-2">
-     <nav id="sidebar">
-        <h4>Team Members</h4>
-        <ul class="nav bs-docs-sidenav">
-            {% for division in team.team %}
-              {% if loop.index == 1 %}
-              <li class="active">
-              {% else %}
-              <li>
-              {% endif %}
-                <a href={{ "#" + division.type.replace(' ', '-').lower()}}> {{ division.type }} </a>
-              </li>
-            {% endfor %}
-        </ul>
-      </nav>
+    <div class="mdl-cell mdl-cell--2-col">
+      <div class="navigation-bar" id="team-navigation">
+        <div class="mdl-card mdl-cell">
+          <div class="mdl-card__actions">
+          {% for division in team.team %}
+            <a href="{{'#' + division.type.replace(' ', '-').lower()}}" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+          {{division.type}}
+            </a>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="col-md-10">
-      {% for division in team.team %}
-        <div class="title centered">
-          <h3>{{division.type}}</h3>
-          <hr>
-        </div>
 
-        <div class="row mt">
-          {% for person in division.names %}
-          <div class="col-lg-3">
-            <div class="people" style="background-image: url({{person.pic}})"></div>
-            <h4 class="names">{{person.name}}
-            </h4>
+    <div class="mdl-cell mdl-cell--10-col">
+    
+    {% for division in team.team %}
+    <div class="team-section" id="{{division.type.replace(' ', '-').lower()}}">
+      <h3> {{division.type}} </h3>
+      <div class="mdl-grid">
+      {% for person in division.names %}
+        <div class="mdl-cell mdl-card mdl-shadow--2dp team-card-square">
+          <div class="mdl-card__media">
+            <img src={{person.pic}}>
           </div>
-          {% endfor %}
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">{{person.name}}</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            {{person.title}}
+          </div>
         </div>
       {% endfor %}
+      <hr>
+      </div>
+    </div>
+    {% endfor %}
+    
     </div>
   </div>
-</div>
 
 {% endblock %}
