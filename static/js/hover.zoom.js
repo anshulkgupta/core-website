@@ -1,7 +1,5 @@
 (function($){
-
     $.fn.extend({ 
-
         hoverZoom: function(settings) {
  
             var defaults = {

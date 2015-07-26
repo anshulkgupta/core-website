@@ -1,10 +1,5 @@
-$(function() {
+$(document).ready(function() {
+	console.log("Welcome to the CORE website!");
 
-	$('a[href*="#"]').click(function(e) {
-		e.preventDefault();
-		var $target = $($(this).attr('href'));
-		var scrollTop = $target.offset().top;
-		$('html, body').animate({'scrollTop': scrollTop}, 500);
-	});
-
+	// Implement scroll spy
 });
