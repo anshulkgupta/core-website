@@ -1,26 +1,46 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:300italic,400,700);
 
-.home_wrapper img {
+.document-header {
+  position: fixed;
+}
+
+.document-body {
+  margin-top: 64px;
+}
+
+.home-wrapper img {
 	width: 100%;
 	overflow: hidden;
 }
 
-.home_wrapper #title {
-    position: absolute;
+.home-wrapper-text h1 {
     color: white;
     font-size: 50px;
     font-weight: bold;
+}
+
+.home-wrapper-text {
+    position: absolute;
     left: 15%;
     bottom: 10%;
 }
 
+
 .team-section > h3 {
-  padding-left: 2%;
+  padding-left: 3%;
+}
+
+.team-section {
+  padding-top: 84px;
+  margin-top: -84px;
 }
 
 .team-card-square.mdl-card {
-	max-width: 250px;
+  max-width: 250px;
+  text-align: center;
+  position: relative;
 }
+
 .team-card-square > .mdl-card__media {
   text-align: center;
   background: none;
@@ -58,8 +78,35 @@
   font-size: 20px;
 }
 
+.team-bio {
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.team-pic {
+  position: relative;
+}
+
+.team-socialmedia {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+}
+
+/* On smaller screens */
 @media (max-width: 1025px) {
     .navigation-bar {
+      display:none;
+    }
+    .document-navigation {
+      display:none;
+    }
+}
+
+/* On larger screens */
+@media only screen and (min-width: 480px) {
+    .mdl-layout__drawer-button {
       display:none;
     }
 }
