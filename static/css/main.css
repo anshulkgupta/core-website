@@ -102,6 +102,15 @@
     .document-navigation {
       display:none;
     }
+
+    .home-wrapper-text h1 {
+        color: #000;
+        font-size: 25px;
+    }
+    
+    .mdl-layout__header-row {
+      height: 64px;
+    }
 }
 
 /* On larger screens */
