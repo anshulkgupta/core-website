@@ -16,9 +16,9 @@
 	},
 	{
 		"type": "Ignite@CU",
-		"description": "",
-		"background-pic": "",
-		"link": "" 
+		"description": "Ignite@CU is an intercolegiate entrepreneurship festival that is going to bring top collegiate entrepreneurs together for a weekend of learning, netowkring and venturing!",
+		"background-pic": "static/img/initiatives/ignite-logo.png",
+		"link": "ignite.coreatcu.com" 
 	},
 	{
 		"type": "Speaker Events",
