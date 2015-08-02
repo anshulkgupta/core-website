@@ -26,15 +26,25 @@
       <div class="mdl-grid">
       {% for person in division.names %}
         <div class="mdl-cell mdl-card mdl-shadow--2dp team-card-square">
-          <div class="mdl-card__media">
+          <div class="mdl-card__media team-pic">
             <img src={{person.pic}}>
           </div>
-          <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">{{person.name}}</h2>
+
+          <div class="team-socialmedia">
+              {% for social in person.socialmedia %}
+              <a href="{{person.socialmedia[social]}}" target="_blank"><i class="fa fa-{{social}}"></i></a>
+              {% endfor %}
           </div>
-          <div class="mdl-card__supporting-text">
-            {{person.title}}
+
+          <h5 class="team-name">{{person.name}}</h5>
+          <div class="team-title">{{person.title}}</div>  
+          <div class="mdl-card__supporting-text team-byline">
+            {{person.byline}}
           </div>
+          <div class="mdl-card__supporting-text team-bio">
+            {{person.bio}}
+          </div>
+
         </div>
       {% endfor %}
       <hr>

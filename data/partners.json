@@ -1,0 +1,58 @@
+// Each image needs to be 150px by 150px or it will get distorted
+
+{
+  "partners": [ 
+	 {
+		"type": "Startup",
+		"names": [
+			{
+				"name": "Fundera",
+				"pic": "static/img/partners/fundera.jpg"
+			},
+			{
+				"name": "Olo",
+				"pic": "static/img/partners/olo.jpg"
+			}
+		]
+	},
+	{
+		"type": "Technology",
+		"names": [
+			{
+				"name": "Google",
+				"pic": "static/img/partners/google.jpg"
+			},
+			{
+				"name": "Twitter",
+				"pic": "static/img/partners/twitter.jpg"
+			}
+		]
+	},
+	{
+		"type": "Venture Capital",
+		"names": [
+			{
+				"name": "Andressen Horowitz",
+				"pic": "static/img/partners/a16z.jpg"
+			},
+			{
+				"name": "Union Square Ventures",
+				"pic": "static/img/partners/usv.jpg"
+			}
+		]
+	},
+	{
+		"type": "University Resources",
+		"names" : [
+			{
+				"name": "Columbia Entrepreneurship",
+				"pic": "static/img/partners/columbia_entrepreneurship.jpg"
+			},
+			{
+				"name": "Columbia Engineering",
+				"pic": "static/img/partners/columbia_engineering.jpg"
+			}
+		]
+	}
+  ]
+}
