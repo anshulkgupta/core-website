@@ -32,7 +32,7 @@
 				"pic": "static/img/people/james.jpg",
 				"title": "Editor-in-Chief of Impulse",
 				"byline": "SEAS '17, Computer Science",
-				"bio": "James started with CORE Impulse since it was just \"the blog\" back in 2013, helping to  grow a talented team, a large audience, and a site with some awesome content. He's worked at a tech startup in Hong Kong, a research lab in Tokyo, startups in NYC, and an IT consultancy in London. He also likes Game of Thrones!",
+				"bio": "I've been with CORE Impulse since it was just \"the blog\" back in 2013, and I'm currently the editor-in-chief. We've grown a talented team, a large audience, and a site with some awesome content! I've worked at a tech startup in Hong Kong, a research lab in Tokyo, startups in NYC, and an IT consultancy in London. I also like Game of Thrones!",
 				"socialmedia": {
 					"twitter": "http://twitter.com/therealjamesxue"
 				}
@@ -42,6 +42,7 @@
 				"pic": "static/img/people/jamie.jpg",
 				"title": "Secretary",
 				"byline": "SEAS '17, Computer Science",
+				"bio": "I'm currently CORE's secretary, publishing the newsletters you read! I'm also involved in CORE Impulse, and, last year, I organized the media conference with Karen, inviting speakers from VICE, Mashable, and Circa. Besides CORE, I'm the president of Columbia Korean Students Association and have interned at a startup accelerator in Korea called SparkLabs.",
 				"socialmedia": {
 					"twitter": "http://twitter.com/jamiejysong"
 				}
@@ -50,10 +51,9 @@
 				"name": "Josh Zweig",
 				"pic": "static/img/people/josh.jpg",
 				"byline": "SEAS '18, Computer Science",
-				"bio": "Josh has worked on the global tech treks and the Startup Internship Program. He's excited to help design the world of the Internet of Things, and he's also interested in hard problems, adventure, and juggling",
+				"bio": "I've worked on the global tech treks and the Startup Internship Program. Excited to help design the Internet of Things world, and I'm also interested in hard problems, adventure, and juggling.",
 				"socialmedia": {
-					"twitter": "http://twitter.com/original_jz",
-					"linkedin": "https://www.linkedin.com/pub/joshua-zweig/77/737/483"
+					"twitter": "http://twitter.com/original_jz"
 				}
 			},
 			{
@@ -128,7 +128,11 @@
 			{
 				"name": "Connie Long",
 				"pic": "static/img/people/connie.jpg",
-				"byline": "CC '16, Art History and Economics."
+				"byline": "CC '16, Art History and Economics.",
+				"bio": "I joined CORE as one of the early members of CORE Impulse. I've served as co-Editor-in-Chief and am continuing as Strategy and Operations Officer for the blog to further develop its internal teams. I love to travel (studying abroad in Buenos Aires, interning in London, etc.) and can't wait for the next CORE tech trek!",
+				"socialmedia": {
+					"twitter": "https://twitter.com/konnie0017"
+				}
 			},
 			{
 				"name": "Jiaying Lim",
@@ -183,7 +187,7 @@
 				"name": "Kristina Wald",
 				"pic": "static/img/people/kristina.jpg",
 				"byline": "CC '16, Economics and Psychology",
-				"bio": "Kristina joined CORE at the beginning of her sophomore year of college and has been involved with different initiatives including organizing dinners with entrepreneurs and building community among CORE's members. She first fell in love with startups after interning at a wedding startup in Chicago. Hobbies include sleeping, taking walks, playing piano, reading, and memorizing poetry",
+				"bio": "I joined CORE at the beginning of my sophomore year and have been involved with initiatives like organizing dinners with entrepreneurs and building community within CORE. I fell in love with startups after interning at a wedding startup in Chicago. Hobbies include sleeping, taking walks, playing piano, reading, and memorizing poetry.",
 				"socialmedia": {
 					"external-link": "http://kwald345.wix.com/kristina-with-a-k"
 				}
@@ -199,7 +203,8 @@
 			{
 				"name": "Sahir Jaggi",
 				"pic": "static/img/people/sahir.jpg",
-				"byline": "SEAS '17, Mechanical Engineering",
+				"byline": "SEAS '17, Biomedical Engineering",
+				"bio": "I'm a founding member of the Columbia Makerspace and currently working on CORE's entrepreneurship orientation program, which introduces first-year students to the startup world.",
 				"socialmedia": {
 					"twitter": "http://twitter.com/sahirjaggi"
 				}
@@ -212,12 +217,14 @@
 			{
 				"name": "Victoria Lee",
 				"pic": "static/img/people/victoria.jpg",
-				"byline": "SEAS '17, Computer Science."
+				"byline": "SEAS '17, Operations Research.",
+				"bio": "I'm a CORE-fanatic and have been involved with the Women@CORE mentorship, Columbia's undergraduate venture competition, and CORE's first-ever food innovation event. I interned this past spring at a startup called Fundera. In my spare time, I can be found Yelping best places to eat in Manhattan."
 			},
 			{
 				"name": "Zach Gleicher",
 				"pic": "static/img/people/zach.jpg",
-				"byline": "CC '16, Computer Science."
+				"byline": "CC '16, Computer Science.",
+				"bio": "The past three summers, I've interned at Qualcomm and Google. Currently, I'm working on Almaworks, CORE's student-run accelerator. Long-term, I hope to get involved in an early-stage technology startup or launch my own venture."
 			}
 		]
 	},
