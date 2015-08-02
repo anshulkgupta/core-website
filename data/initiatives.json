@@ -31,6 +31,12 @@
 		"description": "",
 		"background-pic": "",
 		"link": "" 
+	},
+	{
+		"type": "Startup Internship Program",
+		"description": "The Startup Internship Program (SIP) is an opportunity for students to get involved with startups in the spring semester. CORE partners with the CCE to bring students a great opportunity to get hands on expeirence working at startups.",
+		"background-pic": "static/img/initiatives/sip-logo.jpg",
+		"link": "https://www.careereducation.columbia.edu/findajob/cce-internship/sip" 
 	}
   ]
 }
