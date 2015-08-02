@@ -6,90 +6,119 @@
 			{
 				"name": "Anshul Gupta",
 				"pic": "static/img/people/anshul.jpg",
-				"title": "SEAS '17, Computer Science",
-				"social-media": {
+				"byline": "SEAS '16, Computer Science",
+				"socialmedia": {
 					"twitter": "http://twitter.com/anshulkgupta"
 				}
 			},
 			{
 				"name": "George Liu",
 				"pic": "static/img/people/george.jpg",
-				"title": "CC '17, Economics",
-				"twitter": "http://twitter.com/gxzliu"
+				"byline": "CC '17, Economics",
+				"socialmedia": {
+					"twitter": "http://twitter.com/gxzliu"
+				}
 			},
 			{
 				"name": "Jackie Luo",
 				"pic": "static/img/people/jackie.jpg",
-				"title": "CC '17, Computer Science and Philosophy",
-				"twitter": "http://twitter.com/jackiehluo"
+				"byline": "CC '17, Computer Science and Philosophy",
+				"socialmedia": {
+					"twitter": "http://twitter.com/jackiehluo"
+				}
 			},
 			{
 				"name": "James Xue",
 				"pic": "static/img/people/james.jpg",
-				"title": "SEAS '17, Computer Science (Editor-in-Chief of Impulse)",
+				"title": "Editor-in-Chief of Impulse",
+				"byline": "SEAS '17, Computer Science",
 				"bio": "James started with CORE Impulse since it was just \"the blog\" back in 2013, helping to  grow a talented team, a large audience, and a site with some awesome content. He's worked at a tech startup in Hong Kong, a research lab in Tokyo, startups in NYC, and an IT consultancy in London. He also likes Game of Thrones!",
-				"twitter": "http://twitter.com/therealjamesxue"
+				"socialmedia": {
+					"twitter": "http://twitter.com/therealjamesxue"
+				}
 			},
 			{
 				"name": "Jamie Song",
 				"pic": "static/img/people/jamie.jpg",
-				"title": "SEAS '17, Computer Science (Secretary)",
-				"twitter": "http://twitter.com/jamiejysong"
+				"title": "Secretary",
+				"byline": "SEAS '17, Computer Science",
+				"socialmedia": {
+					"twitter": "http://twitter.com/jamiejysong"
+				}
 			},
 			{
 				"name": "Josh Zweig",
 				"pic": "static/img/people/josh.jpg",
-				"title": " SEAS '18, Computer Science",
-				"bio": "Josh has worked on the global tech treks and the Startup Internship Program. He's excited to help design the world of the Internet of Things, and he's also interested in hard problems, adventure, and juggling.",
-				"twitter": "http://twitter.com/original_jz",
-				"linkedin": "https://www.linkedin.com/pub/joshua-zweig/77/737/483"
+				"byline": "SEAS '18, Computer Science",
+				"bio": "Josh has worked on the global tech treks and the Startup Internship Program. He's excited to help design the world of the Internet of Things, and he's also interested in hard problems, adventure, and juggling",
+				"socialmedia": {
+					"twitter": "http://twitter.com/original_jz",
+					"linkedin": "https://www.linkedin.com/pub/joshua-zweig/77/737/483"
+				}
 			},
 			{
 				"name": "Kat Moon",
 				"pic": "static/img/people/kat.jpg",
-				"title": "CC '17, Creative Writing",
-				"twitter": "http://twitter.com/katxmoon"
+				"byline": "CC '17, Creative Writing",
+				"socialmedia": {
+					"twitter": "http://twitter.com/katxmoon"
+				}
 			},
 			{
 				"name": "Kimberly Hou",
 				"pic": "static/img/people/kimberly.jpg",
-				"title": "CC '16, Neuroscience (Vice President)",
-				"twitter": "http://twitter.com/kimberlyjhou"
+				"title": "Vice President",
+				"byline": "CC '16, Neuroscience",
+				"socialmedia": {
+					"twitter": "http://twitter.com/kimberlyjhou"
+				}
 			},
 			{
 				"name": "Max Rosenberg",
 				"pic": "static/img/people/max.jpg",
-				"title": "CC '18, Economics (Treasurer)"
+				"title": "Treasurer",
+				"byline": "CC '18, Economics."
 			},
 			{
 				"name": "Meric Atesalp",
 				"pic": "static/img/people/meric.jpg",
-				"title": "CC '16, Neuroscience",
-				"twitter": "http://twitter.com/mericatesalp"
+				"byline": "CC '16, Neuroscience",
+				"socialmedia": {
+					"twitter": "http://twitter.com/mericatesalp"
+				}
 			},
 			{
 				"name": "Michelle Tan",
 				"pic": "static/img/people/michelle-t.jpg",
-				"title": "CC '16, Economics and History",
-				"twitter": "http://twitter.com/qiuyuntan"
+				"byline": "CC '16, Economics and History",
+				"socialmedia": {
+					"twitter": "http://twitter.com/qiuyuntan"
+				}
 			},
 			{
 				"name": "Miranda Li",
 				"pic": "static/img/people/miranda.jpg",
-				"title": "CC '17, Computer Science and Economics-Philosophy",
-				"twitter": "http://twitter.com/mirandajli"
+				"byline": "CC '17, Computer Science and Economics-Philosophy",
+				"socialmedia": {
+					"twitter": "http://twitter.com/mirandajli"
+				}
 			},
 			{
 				"name": "Sara Sakowitz",
 				"pic": "static/img/people/sara.jpg",
-				"title": "CC '18, Biochemistry",
-				"twitter": "http://twitter.com/sarasakowitz"
+				"byline": "CC '18, Biochemistry",
+				"socialmedia": {
+					"twitter": "http://twitter.com/sarasakowitz"
+				}
 			},
 			{
 				"name": "Simon Schwartz",
 				"pic": "static/img/people/simon.jpg",
-				"title": "CC '17, Archaeology and Economics-Political Science (President)",
-				"twitter": "http://twitter.com/simonamschwartz"
+				"title": "President",
+				"byline": "CC '17, Archaeology and Economics-Political Science",
+				"socialmedia": {
+					"twitter": "http://twitter.com/simonamschwartz"
+				}
 			}
 		]
 	},
@@ -99,18 +128,20 @@
 			{
 				"name": "Connie Long",
 				"pic": "static/img/people/connie.jpg",
-				"title": "CC '16, Art History and Economics"
+				"byline": "CC '16, Art History and Economics."
 			},
 			{
 				"name": "Jiaying Lim",
 				"pic": "static/img/people/jiaying.jpg",
-				"title": "CC '17, Economics-Political Science"
+				"byline": "CC '17, Economics-Political Science."
 			},
 			{
 				"name": "Nik Nayar",
 				"pic": "static/img/people/nik.jpg",
-				"title": "CC '16, Computer Science and Economics",
-				"twitter": "http://twitter.com/nayaronfire"
+				"byline": "CC '16, Computer Science and Economics",
+				"socialmedia": {
+					"twitter": "http://twitter.com/nayaronfire"
+				}
 			}
 		]
 	},
@@ -120,63 +151,73 @@
 			{
 				"name": "Amal Abid",
 				"pic": "static/img/people/amal.jpg",
-				"title": "CC '17, Computer Science",
-				"twitter": "http://twitter.com/amalabid"
+				"byline": "CC '17, Computer Science",
+				"socialmedia": {
+					"twitter": "http://twitter.com/amalabid"
+				}
 			},
 			{
 				"name": "Christy Chung",
 				"pic": "static/img/people/christy.jpg",
-				"title": "CC '17, Economics"
+				"byline": "CC '17, Economics."
 			},
 			{
 				"name": "Erica Chan",
 				"pic": "static/img/people/erica.jpg",
-				"title": "CC '17, Computer Science"
+				"byline": "CC '17, Computer Science."
 			},
 			{
 				"name": "Gary Lin",
 				"pic": "static/img/people/gary.jpg",
-				"title": "SEAS '17, Computer Science"
+				"byline": "SEAS '17, Computer Science."
 			},
 			{
 				"name": "Karen Yuan",
 				"pic": "static/img/people/karen.jpg",
-				"title": "CC '16, Creative Writing.",
-				"twitter": "http://twitter.com/karenyuan_"
+				"byline": "CC '16, Creative Writing",
+				"socialmedia": {
+					"twitter": "http://twitter.com/karenyuan_"
+				}
 			},
 			{
-				"name": "Kritina Wald",
+				"name": "Kristina Wald",
 				"pic": "static/img/people/kristina.jpg",
-				"title": "CC '16, Economics and Psychology",
-				"bio": "Kristina joined CORE at the beginning of her sophomore year of college and has been involved with different initiatives including organizing dinners with entrepreneurs and building community among CORE's members. She first fell in love with startups after interning at a wedding startup in Chicago. Hobbies include sleeping, taking walks, playing piano, reading, and memorizing poetry.",
-				"website": "http://kwald345.wix.com/kristina-with-a-k"
+				"byline": "CC '16, Economics and Psychology",
+				"bio": "Kristina joined CORE at the beginning of her sophomore year of college and has been involved with different initiatives including organizing dinners with entrepreneurs and building community among CORE's members. She first fell in love with startups after interning at a wedding startup in Chicago. Hobbies include sleeping, taking walks, playing piano, reading, and memorizing poetry",
+				"socialmedia": {
+					"external-link": "http://kwald345.wix.com/kristina-with-a-k"
+				}
 			},
 			{
 				"name": "Mayank Mahajan",
 				"pic": "static/img/people/mayank.jpg",
-				"title": "SEAS '17, Computer Science",
-				"twitter": "http://twitter.com/mayanktho"
+				"byline": "SEAS '17, Computer Science",
+				"socialmedia": {
+					"twitter": "http://twitter.com/mayanktho"
+				}
 			},
 			{
 				"name": "Sahir Jaggi",
 				"pic": "static/img/people/sahir.jpg",
-				"title": "SEAS '17, Mechanical Engineering",
-				"twitter": "http://twitter.com/sahirjaggi"
+				"byline": "SEAS '17, Mechanical Engineering",
+				"socialmedia": {
+					"twitter": "http://twitter.com/sahirjaggi"
+				}
 			},
 			{
 				"name": "Tony Li",
 				"pic": "static/img/people/tony.jpg",
-				"title": "CC '18, Computer Science"
+				"byline": "CC '18, Computer Science."
 			},
 			{
 				"name": "Victoria Lee",
 				"pic": "static/img/people/victoria.jpg",
-				"title": "SEAS '17, Computer Science"
+				"byline": "SEAS '17, Computer Science."
 			},
 			{
 				"name": "Zach Gleicher",
 				"pic": "static/img/people/zach.jpg",
-				"title": "CC '16, Computer Science"
+				"byline": "CC '16, Computer Science."
 			}
 		]
 	},
@@ -186,12 +227,12 @@
 			{
 				"name": "Abigail Kim",
 				"pic": "static/img/people/abigail.jpg",
-				"title": "BC '16, Art History"
+				"byline": "BC '16, Art History."
 			},
 			{
 				"name": "Michelle Zheng",
 				"pic": "static/img/people/michelle-z.jpg",
-				"title": "CC '16, Computer Science and Economics"
+				"byline": "CC '16, Computer Science and Economics."
 			}
 		]
 	}

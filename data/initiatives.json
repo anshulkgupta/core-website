@@ -1,0 +1,36 @@
+// Each image needs to be 700px by 150px or it will get distorted
+
+{
+  "initiatives": [ 
+	 {
+		"type": "StartupColumbia",
+		"description": "Startup Columbia is an annual entrepreneurship festival held in the Spring that's coordinated by Columbia Entreprenership, CEO from the Business School and CORE. The day-long event brings in speakers, alumni and current students to in a celebration of entrepreneurship. The theme for Spring 2015 was \"New York Innovation\". The Festival also marks the conclusion of the Columbia Venture Competition, an annual $250,000 business plan competition for Columbia students and young alums.",
+		"background-pic": "static/img/initiatives/startup-columbia.jpg",
+		"link": "www.startupcolumbia.org" 
+	},
+	{
+		"type": "Startup Tech Trek",
+		"description": "",
+		"background-pic": "",
+		"link": "" 
+	},
+	{
+		"type": "Ignite@CU",
+		"description": "",
+		"background-pic": "",
+		"link": "" 
+	},
+	{
+		"type": "Speaker Events",
+		"description": "",
+		"background-pic": "",
+		"link": ""
+	},
+	{
+		"type": "Startup Social",
+		"description": "",
+		"background-pic": "",
+		"link": "" 
+	}
+  ]
+}
