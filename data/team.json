@@ -77,7 +77,7 @@
 				"name": "Max Rosenberg",
 				"pic": "static/img/people/max.jpg",
 				"title": "Treasurer",
-				"byline": "CC '18, Economics."
+				"byline": "CC '18, Economics"
 			},
 			{
 				"name": "Meric Atesalp",
@@ -115,7 +115,7 @@
 				"name": "Simon Schwartz",
 				"pic": "static/img/people/simon.jpg",
 				"title": "President",
-				"byline": "CC '17, Archaeology and Economics-Political Science",
+				"byline": "CC '17, Philosophy and Statistics",
 				"socialmedia": {
 					"twitter": "http://twitter.com/simonamschwartz"
 				}
@@ -128,7 +128,7 @@
 			{
 				"name": "Connie Long",
 				"pic": "static/img/people/connie.jpg",
-				"byline": "CC '16, Art History and Economics.",
+				"byline": "CC '16, Art History and Economics",
 				"bio": "I joined CORE as one of the early members of CORE Impulse. I've served as co-Editor-in-Chief and am continuing as Strategy and Operations Officer for the blog to further develop its internal teams. I love to travel (studying abroad in Buenos Aires, interning in London, etc.) and can't wait for the next CORE tech trek!",
 				"socialmedia": {
 					"twitter": "https://twitter.com/konnie0017"
@@ -137,7 +137,7 @@
 			{
 				"name": "Jiaying Lim",
 				"pic": "static/img/people/jiaying.jpg",
-				"byline": "CC '17, Economics-Political Science."
+				"byline": "CC '17, Economics-Political Science"
 			},
 			{
 				"name": "Nik Nayar",
@@ -163,17 +163,17 @@
 			{
 				"name": "Christy Chung",
 				"pic": "static/img/people/christy.jpg",
-				"byline": "CC '17, Economics."
+				"byline": "CC '17, Economics"
 			},
 			{
 				"name": "Erica Chan",
 				"pic": "static/img/people/erica.jpg",
-				"byline": "CC '17, Computer Science."
+				"byline": "CC '17, Computer Science"
 			},
 			{
 				"name": "Gary Lin",
 				"pic": "static/img/people/gary.jpg",
-				"byline": "SEAS '17, Computer Science."
+				"byline": "SEAS '17, Computer Science"
 			},
 			{
 				"name": "Karen Yuan",
@@ -212,18 +212,18 @@
 			{
 				"name": "Tony Li",
 				"pic": "static/img/people/tony.jpg",
-				"byline": "CC '18, Computer Science."
+				"byline": "CC '18, Computer Science"
 			},
 			{
 				"name": "Victoria Lee",
 				"pic": "static/img/people/victoria.jpg",
-				"byline": "SEAS '17, Operations Research.",
+				"byline": "SEAS '17, Operations Research",
 				"bio": "I'm a CORE-fanatic and have been involved with the Women@CORE mentorship, Columbia's undergraduate venture competition, and CORE's first-ever food innovation event. I interned this past spring at a startup called Fundera. In my spare time, I can be found Yelping best places to eat in Manhattan."
 			},
 			{
 				"name": "Zach Gleicher",
 				"pic": "static/img/people/zach.jpg",
-				"byline": "CC '16, Computer Science.",
+				"byline": "CC '16, Computer Science",
 				"bio": "The past three summers, I've interned at Qualcomm and Google. Currently, I'm working on Almaworks, CORE's student-run accelerator. Long-term, I hope to get involved in an early-stage technology startup or launch my own venture."
 			}
 		]
@@ -234,12 +234,12 @@
 			{
 				"name": "Abigail Kim",
 				"pic": "static/img/people/abigail.jpg",
-				"byline": "BC '16, Art History."
+				"byline": "BC '16, Art History"
 			},
 			{
 				"name": "Michelle Zheng",
 				"pic": "static/img/people/michelle-z.jpg",
-				"byline": "CC '16, Computer Science and Economics."
+				"byline": "CC '16, Computer Science and Economics"
 			}
 		]
 	}

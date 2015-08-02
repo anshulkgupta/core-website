@@ -2,7 +2,6 @@
 {% block content %}
 
   <div class="mdl-grid">
-
     <div class="mdl-cell mdl-cell--2-col">
       <div class="navigation-bar" id="team-navigation">
         <div class="mdl-card mdl-cell">
@@ -16,10 +15,7 @@
         </div>
       </div>
     </div>
-
-
     <div class="mdl-cell mdl-cell--10-col">
-    
     {% for division in team.team %}
     <div class="team-section" id="{{division.type.replace(' ', '-').lower()}}">
       <h3> {{division.type}} </h3>
@@ -29,13 +25,11 @@
           <div class="mdl-card__media team-pic">
             <img src={{person.pic}}>
           </div>
-
           <div class="team-socialmedia">
               {% for social in person.socialmedia %}
               <a href="{{person.socialmedia[social]}}" target="_blank"><i class="fa fa-{{social}}"></i></a>
               {% endfor %}
           </div>
-
           <h5 class="team-name">{{person.name}}</h5>
           <div class="team-title">{{person.title}}</div>  
           <div class="mdl-card__supporting-text team-byline">
@@ -44,14 +38,12 @@
           <div class="mdl-card__supporting-text team-bio">
             {{person.bio}}
           </div>
-
         </div>
       {% endfor %}
       <hr>
       </div>
     </div>
     {% endfor %}
-    
     </div>
   </div>
 
