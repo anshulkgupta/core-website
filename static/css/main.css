@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:300italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,700);
 
 .document-header {
   position: fixed;
@@ -9,8 +9,13 @@
 }
 
 .home-wrapper img {
-	width: 100%;
-	overflow: hidden;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: 100%;
+  position: fixed;
+  top: 5%;
+  left: -8%;
 }
 
 .home-wrapper-text h1 {
@@ -25,7 +30,6 @@
     bottom: 10%;
 }
 
-
 .team-section > h3 {
   padding-left: 3%;
 }
@@ -39,6 +43,7 @@
   max-width: 250px;
   text-align: center;
   position: relative;
+  cursor: pointer;
 }
 
 .team-card-square > .mdl-card__media {
@@ -69,18 +74,15 @@
   margin-bottom: 5px; 
 }
 
-
 .layout-transparent .mdl-layout__header,
 .layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
   color: white;
   font-size: 20px;
 }
 
 .team-bio {
   padding: 5px 10px;
-  text-align: left;
+  text-align: center;
 }
 
 .team-pic {
@@ -89,25 +91,27 @@
 
 .team-socialmedia {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 10px;
+  right: 10px;
   font-size: 20px;
 }
 
 /* On smaller screens */
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .navigation-bar {
       display:none;
     }
     .document-navigation {
       display:none;
     }
-
-    .home-wrapper-text h1 {
-        color: #000;
-        font-size: 25px;
+    .home-wrapper img {
+      left: 50%;
+      margin-left: -512px;
     }
-    
+    .home-wrapper-text h1 {
+      color: white;
+      font-size: 25px;
+    }
     .mdl-layout__header-row {
       height: 64px;
     }
