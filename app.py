@@ -9,6 +9,7 @@ app.config.from_object('config')
 mail = Mail(app)
 data = {}
 
+from config import SECRET_KEY
 from forms import ContactForm
 
 # import data from relevant JSON
@@ -36,17 +37,13 @@ def team():
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
-    # Bypassing form for now
-    return render_template('contact.html')
-
     form = ContactForm()
     if form.validate_on_submit():
+        print form.email.data
         msg = Message(form.subject.data,
-                    recipients=['coreboard@columbia.edu'])
-        msg.body = """
-        From: %s <%s>
-        %s
-        """ % (form.name.data, form.email.data, form.message.data)
+                    recipients=[(form.name.data, form.email.data),
+                                ('CORE Board', 'coreboard@columbia.edu')])
+        msg.body = form.message.data
         mail.send(msg)
         return redirect(url_for('index'))
     return render_template('contact.html', form=form)

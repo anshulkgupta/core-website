@@ -41,6 +41,7 @@
 
 .team-card-square.mdl-card {
   max-width: 250px;
+  height: 300px;
   text-align: center;
   position: relative;
   cursor: pointer;
@@ -81,11 +82,11 @@
 }
 
 .team-bio {
-  padding: 5px 10px;
   text-align: center;
 }
 
 .team-pic {
+  padding-top: 10px;
   position: relative;
 }
 
@@ -94,6 +95,11 @@
   top: 10px;
   right: 10px;
   font-size: 20px;
+}
+
+.contact-form {
+  position: fixed;
+  text-align: center;
 }
 
 /* On smaller screens */
