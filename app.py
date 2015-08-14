@@ -9,6 +9,7 @@ app.config.from_object('config')
 mail = Mail(app)
 data = {}
 
+from config import SECRET_KEY
 from forms import ContactForm
 
 # import data from relevant JSON
