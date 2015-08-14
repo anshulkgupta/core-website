@@ -1,10 +1,46 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="container pt">
-  <div class="row mt">
-    <h1>Coming Soon.<h1>
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--2-col">
+      <div class="navigation-bar" id="initiatives-navigation">
+      {% for initiative in initiatives %}
+            <div class="navigation-bar-item">
+            <a href="{{'#' + initiative.type.replace(' ', '-').lower()}}">
+              <div class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                {{initiative.navigationLabel}}
+              </div>
+            </a>
+            </div>
+      {% endfor %}
+      </div>
+    </div>
+    <div class="mdl-cell mdl-cell--10-col">
+      <div class="mdl-grid">
+      {% for initiative in initiatives %}
+        <div class="mdl-cell mdl-card mdl-shadow--2dp initiatives-card">
+          <div class="section" id="{{initiative.type.replace(' ', '-').lower()}}">
+    	      <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">{{initiative.type}}</h2>
+            </div>
+            <div class="initiative-pic">
+              <img src={{initiative["background-pic"]}} style="max-width: 95%;">
+            </div>
+            <div class="mdl-card__supporting-text">
+               {{initiative.description}}
+             </div>
+             {% if initiative.link %}
+             <div class="initiative-links">
+               <a href={{initiative.link}} target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                 Find out more
+               </a>
+             </div>
+             {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
   </div>
-</div>
 
 {% endblock %}

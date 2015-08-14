@@ -1,39 +1,44 @@
-// Each image needs to be 700px by 150px or it will get distorted
 
 {
   "initiatives": [ 
 	 {
 		"type": "StartupColumbia",
+		"navigationLabel": "#StartupColumbia",
 		"description": "Startup Columbia is an annual entrepreneurship festival held in the spring that's coordinated by Columbia Entreprenership, CEO from the Business School, and CORE. The day-long event brings in speakers, alumni, and current students in a celebration of entrepreneurship. The theme for Spring 2015 was \"New York Innovation\". The festival also marks the conclusion of the Columbia Venture Competition, an annual $250,000 business plan competition for Columbia students and young alums.",
 		"background-pic": "static/img/initiatives/startup-columbia.jpg",
 		"link": "http://www.startupcolumbia.org" 
 	},
 	{
-		"type": "Startup Tech Trek",
-		"description": "",
-		"background-pic": "",
+		"type": "Startup Tech Treks",
+		"navigationLabel": "Tech Treks",
+		"description": "CORE has successfully led startup tech treks to San Francisco, London and Paris. We've partnered with local schools, reached out to alumni in these cities and taken a group of approximately 20 students on each of these individual trips to engage with the vibrant local startup scenes. Based on the tremendous response to these tech treks, we're excited to go back to these places this year.",
+		"background-pic": "static/img/initiatives/tech-trek.jpg",
 		"link": "" 
 	},
 	{
 		"type": "Ignite@CU",
+		"navigationLabel": "Ignite@CU",
 		"description": "Ignite@CU is an intercollegiate entrepreneurship weekend that is going to bring top undergraduate entrepreneurs together for a weekend of learning and networking!",
 		"background-pic": "static/img/initiatives/ignite-logo.png",
 		"link": "http://ignite.coreatcu.com" 
 	},
 	{
 		"type": "Speaker Events",
-		"description": "",
-		"background-pic": "",
+		"navigationLabel": "Speaker Events",
+		"description": "We host speaker series throughout the year to keep with our mission of inspiring and educating the next generation of Columbia entrepreneurs. In the past we've had Jack Dorsey, the founder of Square and Twitter and Peter Thiel, the founder of Paypal and Palantir kick off our year long speaker series.",
+		"background-pic": "static/img/initiatives/speaker-event.jpg",
 		"link": ""
 	},
 	{
 		"type": "Startup Social",
-		"description": "",
-		"background-pic": "",
+		"navigationLabel": "Startup Social",
+		"description": "Startup Socials are bi-weekly events that embody the entrepreneurial spirit of our community. We have current undergraduates, masters and MBA students and leading startup engineers and venture capitalists from the city often come by. It makes for a fun time for everyone to just hang out and get to know each other or just share ideas.",
+		"background-pic": "static/img/initiatives/startup-social.jpg",
 		"link": "" 
 	},
 	{
 		"type": "Startup Internship Program",
+		"navigationLabel": "SIP",
 		"description": "The Startup Internship Program (SIP) is an opportunity for students to get involved with startups in the spring semester. CORE partners with the CCE to bring students a great opportunity to get hands-on experience working at startups.",
 		"background-pic": "static/img/initiatives/sip-logo.jpg",
 		"link": "https://www.careereducation.columbia.edu/findajob/cce-internship/sip" 

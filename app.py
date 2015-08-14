@@ -9,7 +9,6 @@ app.config.from_object('config')
 mail = Mail(app)
 data = {}
 
-from config import SECRET_KEY
 from forms import ContactForm
 
 # import data from relevant JSON
@@ -20,8 +19,9 @@ def load_data():
             data[name] = json.loads(data_file.read())
 
 @app.route('/')
+@app.route('/index')
 def index():
-    return render_template('index.html', **data)
+    return render_template('index.html')
 
 @app.route('/events')
 def events():
@@ -29,11 +29,11 @@ def events():
 
 @app.route('/initiatives')
 def initiatives():
-    return render_template('initiatives.html')
+    return render_template('initiatives.html', **data['initiatives'])
 
 @app.route('/team')
 def team():
-    return render_template('team.html', **data)
+    return render_template('team.html', **data['team'])
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():

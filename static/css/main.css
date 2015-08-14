@@ -30,11 +30,7 @@
     bottom: 10%;
 }
 
-.team-section > h3 {
-  padding-left: 3%;
-}
-
-.team-section {
+.section {
   padding-top: 84px;
   margin-top: -84px;
 }
@@ -75,6 +71,10 @@
   margin-bottom: 5px; 
 }
 
+.navigation-bar-item {
+  padding: 5px; 
+}
+
 .layout-transparent .mdl-layout__header,
 .layout-transparent .mdl-layout__drawer-button {
   color: white;
@@ -100,6 +100,25 @@
 .contact-form {
   position: fixed;
   text-align: center;
+}
+
+.initiatives-card.mdl-card {
+  width: 40%;
+  position: relative;
+}
+
+.initiatives-card.mdl-card > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+}
+
+.initiative-links {
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+.initiative-pic {
+  padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 /* On smaller screens */
