@@ -9,10 +9,17 @@ $(document).ready(function() {
 	   if($(this).find(".team-bio").html().length < 25)
 	   	return;
 
-       $(this).find(".team-pic").toggle();
-       $(this).find(".team-title").toggle();
-       $(this).find(".team-byline").toggle();
-       $(this).find(".team-bio").toggle();
+     // Hide all the other cards
+     $(document).find(".team-pic").show();
+     $(document).find(".team-title").show();
+     $(document).find(".team-byline").show();
+     $(document).find(".team-bio").hide();
+
+     // Show this card
+     $(this).find(".team-pic").hide();
+     $(this).find(".team-title").hide();
+     $(this).find(".team-byline").hide();
+     $(this).find(".team-bio").show();
     });
 
     $(".team-socialmedia").click(function(e) {
